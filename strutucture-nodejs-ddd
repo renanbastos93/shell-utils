@@ -1,0 +1,1 @@
+npm init --yes && mkdir config bin src src/domains src/infrastructures src/repositories src/services src/middlewares src/validators src/controllers src/routes && touch src/app.js bin/server.js src/validators/generic-validator.js config/development.json src/routes/index-route.js && npm install --save body-parser config express && npm install --save-dev nodemon
