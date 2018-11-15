@@ -1,4 +1,6 @@
-# Run server Python with Build CSS/ JS using grunt
+# Alias help
+alias sass='grunt build_css:styleguide'
+alias js='grunt build_js:dev'
 alias pyserver='python manage.py runserver_plus 0.0.0.0:8080'
-alias pysass='grunt build_css:styleguide && pyserver'
-alias pyjs='grunt build_js:dev && pyserver'
+alias pysass='sass && pyserver'
+alias pyjs='js && pyserver'
